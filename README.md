@@ -31,12 +31,12 @@ The repo will be organized by course section. Each folder will contain the proje
 
 ```
 📦 jonas-react-nextjs-course
-├── 📁 01-react-fundamentals/
-├── 📁 02-state-events/
-├── 📁 03-hooks-deep-dive/
-├── 📁 04-react-router/
-├── 📁 05-redux-toolkit/
-├── 📁 06-nextjs/
+├── 📁 section1/
+├── 📁 section2/
+├── 📁 section3/
+├── 📁 section4/
+├── 📁 section5/
+├── 📁 section6/
 └── 📄 README.md
 ```
 
@@ -145,9 +145,9 @@ _No projects yet — just getting started! Check back as I progress through the 
 
 <div align="center">
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/samer-nassim)
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/samer411)
-
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/your-profile)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/your-username)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5733?style=for-the-badge&logo=firefox&logoColor=white)](https://your-portfolio.com)
 
 </div>
 
