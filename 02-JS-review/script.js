@@ -142,7 +142,7 @@ function getBooks() {
 function getBook(id) {
   return data.find((d) => d.id === id);
 }
-// Destructuring 
+// Destructuring
 /*
 const books= getBooks();
 const book = getBook(2);
@@ -195,4 +195,17 @@ const booksAfterUpdate = booksAfterDelete.map((book)=>{
 booksAfterUpdate
 */
 
-fetch("https://jsonplaceholder.typicode.com/todos")
+fetch("https://dummyjson.com/quotes")
+  .then(res=>res.json())
+  .then(res=>console.log(res))
+console.log("samer");
+
+
+async function getTodos(){
+  const res = await fetch("https://dummyjson.com/todos")
+  const data = await res.json()
+  return data;
+}
+
+const todos =  getTodos()
+console.log(todos)
