@@ -6,7 +6,16 @@ const messages = [
   "Invest your new income 🤑",
 ];
 
-function App() {
+export default function App() {
+  return (
+    <>
+    <Steps />
+    <Steps />
+  </>
+  )
+  
+}
+function Steps() {
   //hooks start with use in react
   const [step, setStep] = useState(1);
   // const [test] = useState({name:"Samer"})
@@ -20,7 +29,6 @@ function App() {
   function handleNext() {
     if (step < 3) {
       setStep((s) => s + 1);
-      setStep((s) => s + 1);
     }
     // REALLY REALLY BAD PRACTICE
     // test.name="Ahmed"
@@ -30,7 +38,7 @@ function App() {
       <button
         className="close"
         onClick={() => {
-          setIsOpen(is => !is);
+          setIsOpen((is) => !is);
         }}
       >
         &times;
@@ -65,5 +73,3 @@ function App() {
     </div>
   );
 }
-
-export default App;
